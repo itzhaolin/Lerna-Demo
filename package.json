@@ -1,0 +1,11 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  },
+  "script": {
+    "start1": "lerna run start --scope=module1 --stream",
+    "start2": "lerna run start --scope=module2 --stream"
+  }
+}
